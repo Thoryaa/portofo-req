@@ -49,7 +49,8 @@ nav ul li {
 }
 
 .avatar {
-    background-image: url(../img/1641810938750.jpg);
+    background-image: url(../img/1641819014978.jpg);
+    background-size: contain;
     border-radius: 50%;
     height: 200px;
     width: 200px;
@@ -113,13 +114,18 @@ form input {
 
 /*srvices*/
 
+.serv {
+    text-align: center;
+    padding-top: 46px;
+}
+
 .services img {
     height: 184px;
     width: 218px;
 }
 
 .services {
-    padding: 16px 22px;
+    padding: 33px 22px;
     text-align: center;
 }
 
@@ -164,7 +170,10 @@ form input {
 /**/
 
 .btn {
-    background-color: #003c6d;
+    background-color: rgb(0, 60, 109);
+    color: white;
+    width: 87px;
+    margin: 20px 151px;
 }
 
 
