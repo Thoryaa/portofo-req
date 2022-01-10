@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.cap {
+    text-transform: capitalize;
+}
+
+.up {
+    text-transform: uppercase;
+}
+
+.tego {
+    color: #003c6d;
+}
+
+.tew {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*nav*/
+
+nav {
+    background-color: #003c6d;
+    padding: 16px 22px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin-left: 8px;
+}
+
+.avatar {
+    background-image: url(../img/1641810938750.jpg);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+
+/*header*/
+
+header {
+    padding: 89px 22px 17px 22px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 12px;
+    height: 65%;
+    text-align: center;
+}
+
+
+/*section1*/
+
+.section1 {
+    background-color: #003c6d;
+    padding: 49px 22px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    color: white;
+}
+
+
+/*section 2*/
+
+.section2 {
+    padding: 49px 22px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    justify-content: center;
+}
+
+form label,
+form input {
+    display: block;
+    margin: 2px;
+}
+
+.section2 .social {
+    padding: 60px 33px;
+    background: #003c6d;
+    list-style: none;
+    margin-bottom: 6px;
+    width: 44px;
+    display: grid;
+    align-items: center;
+    justify-content: right;
+}
+
+.section2 .social ul li {
+    list-style: none;
+}
+
+
+/*srvices*/
+
+.services img {
+    height: 184px;
+    width: 218px;
+}
+
+.services {
+    padding: 16px 22px;
+    text-align: center;
+}
+
+.our .services {
+    overflow: hidden;
+}
+
+.our .services .type {
+    float: left;
+    width: 31%;
+    margin-left: 1%;
+    overflow: hidden;
+    color: rgba(0, 1, 0, .4);
+}
+
+.our .services .type p {
+    font-size: 14px;
+}
+
+.our .show {
+    background-color: transparent;
+    border: 1px solid #003c6d;
+    width: 119px;
+    border-radius: 75px;
+    padding: 7px;
+    margin: 30px;
+    color: #003c6d;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.our .show:hover {
+    background-color: #003c6d;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/**/
+
+.btn {
+    background-color: #003c6d;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #003c6d;
+    height: 22%;
+    padding: 22px 19px;
+    color: white;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 12px;
+}
